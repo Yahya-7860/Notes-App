@@ -1,0 +1,23 @@
+:root {
+  --gray: rgb(175, 175, 175);
+  --green: rgb(72, 194, 61);
+  --green2: rgb(11, 136, 0);
+  --green3: rgb(9, 110, 0);
+}
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+.main_app_container {
+  display: grid;
+  place-items: center;
+}
+.app_container {
+  width: 90vw;
+}
+.noteCardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}

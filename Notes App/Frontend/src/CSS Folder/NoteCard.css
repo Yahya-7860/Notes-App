@@ -1,0 +1,36 @@
+.cardTextContainer {
+  cursor: pointer;
+}
+.cardText {
+  width: 15rem;
+  padding: 0.9rem 0.9rem;
+  border-radius: 0.8rem;
+  box-shadow: 0.1rem 0.07rem 0.6rem var(--gray);
+  min-height: 5rem;
+  max-height: auto;
+  margin-bottom: 1rem;
+}
+.titleText {
+  color: black;
+  font-weight: bold;
+}
+.contentText {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.deleteBTN {
+  background-color: green;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 1rem;
+  z-index: 5;
+}
+
+.deleteBTN:hover {
+  background-color: rgb(0, 105, 0);
+}
+.deleteBTN:active {
+  background-color: rgb(1, 75, 1);
+}

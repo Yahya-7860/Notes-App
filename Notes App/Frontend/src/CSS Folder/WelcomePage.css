@@ -1,0 +1,80 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #e0f7fa, #a7ffeb);
+  font-family: "Arial", sans-serif;
+}
+
+.welcome-box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.WelcomeText_0 {
+  color: #004d40;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.WelcomeText {
+  color: #00796b;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-login {
+  background-color: #004d40;
+  color: white;
+}
+
+.btn-register {
+  background-color: #00796b;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #004d40;
+}
+
+.btn-register:hover {
+  background-color: #004d40;
+}
+
+/* @media (max-width: 768px) {
+  .welcome-box {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .btn {
+    font-size: 1em;
+    padding: 12px 20px;
+  }
+} */

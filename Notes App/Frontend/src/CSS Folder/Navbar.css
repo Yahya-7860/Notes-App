@@ -1,0 +1,87 @@
+:root {
+  --primary-color3: #ffffff;
+  --text-color3: #333333;
+  --accent-color3: rgb(1, 143, 1);
+  --hover-color3: rgb(0, 109, 0);
+  --background-color3: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo h1 {
+  color: green;
+  font-size: 1.8rem;
+  margin: 0;
+  cursor: default;
+}
+
+.logoImage {
+  width: 4rem;
+  height: 4rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.welcome-message {
+  font-size: 1rem;
+  color: var(--text-color3);
+  cursor: default;
+}
+
+.navbar-button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(1, 156, 1);
+  color: var(--primary-color3);
+  border: none;
+  border-radius: 4px;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: var(--hover-color3);
+}
+
+.logout {
+  background-color: #ff6b6b;
+}
+
+.logout:hover {
+  background-color: #f72828;
+}
+.navRegister {
+  text-decoration: none;
+  color: white;
+}
+.userProfile {
+  font-size: 1.1rem;
+  color: white;
+  background-color: var(--green2);
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.userProfile:hover {
+  background-color: var(--green3);
+}

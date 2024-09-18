@@ -1,0 +1,42 @@
+.taskbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.textbar {
+  border: none;
+  outline: none;
+  box-shadow: 0.1rem 0.1rem 0.5rem var(--gray);
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  width: 30rem;
+  font-size: 1rem;
+}
+.textBox {
+  border: none;
+  outline: none;
+  width: 28rem;
+}
+.titleBox {
+  font-weight: bold;
+}
+.contentBox {
+  font-size: 0.9rem;
+}
+.addbtn {
+  border: none;
+  background-color: var(--green2);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 0.8rem var(--gray);
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+.addbtn:hover {
+  background-color: var(--green3);
+}

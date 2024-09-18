@@ -1,0 +1,51 @@
+.mainContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.cardContainer {
+  width: 20rem;
+  height: 15rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0.1rem 0.5rem 1rem rgb(105, 105, 105);
+  font-family: sans-serif;
+}
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+}
+.ModalTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.crossBTN {
+  position: relative;
+  left: 20rem;
+  bottom: 2.5rem;
+  font-size: 2.5rem;
+  color: red;
+}
+.crossBTN:hover {
+  color: rgb(153, 0, 0);
+}
+.ModalBTN {
+  background-color: var(--green2);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+}
+.ModalBTN:hover {
+  background-color: var(--green3);
+}
